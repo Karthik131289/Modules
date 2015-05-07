@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="slickerbox1.0rc1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/slickerbox1.0rc1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -2,7 +2,7 @@ package com.company.app;
 
 import com.company.app.config.ConfigUtill;
 import com.company.app.config.IConfiguration;
-import com.company.app.ui.splashWindow;
+import com.company.app.ui.splash.splashWindow;
 
 import javax.swing.*;
 import java.io.File;
