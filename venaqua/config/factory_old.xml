@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><venaqua>
+
+	<apartment id="1">
+		<housecount count="2"/>
+		<waterline cost="6.50" type="TYPE1"/>
+		<waterline cost="6.50" type="TYPE2"/>
+		<waterline cost="6.50" type="TYPE3"/>
+		<waterline cost="6.50" type="TYPE4"/>
+	</apartment>	
+	<apartment id="2">
+		<housecount count="3"/>
+		<waterline cost="6.50" type="TYPE1"/>
+		<waterline cost="6.50" type="TYPE2"/>
+		<waterline cost="6.50" type="TYPE3"/>
+		<waterline cost="6.50" type="TYPE4"/>
+	</apartment>	
+	
+	<house inletcount="4" master="1" name="111">
+		<inlet billedconsumption="0.765" name="100" watertype="TYPE1"/>
+		<inlet billedconsumption="0.074" name="200" watertype="TYPE2"/>
+		<inlet billedconsumption="0.141" name="300" watertype="TYPE3"/>
+		<inlet billedconsumption="0.0" name="400" watertype="TYPE4"/>
+	</house>
+	<house inletcount="3" master="1" name="222">
+		<inlet billedconsumption="0" name="100" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="200" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="300" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="333">
+		<inlet billedconsumption="0.233" name="100" watertype="TYPE1"/>
+		<inlet billedconsumption="0.0" name="200" watertype="TYPE2"/>
+	</house>
+	<house inletcount="2" master="2" name="444">
+		<inlet billedconsumption="0" name="100" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="200" watertype="TYPE2"/>
+	</house>
+	<house inletcount="1" master="2" name="555">
+		<inlet billedconsumption="0" name="100" watertype="TYPE1"/>	
+	</house>
+
+</venaqua>

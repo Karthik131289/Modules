@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><venaqua>
+	<settings>
+		<refreshinterval>10000</refreshinterval>
+		<poll_delay>15000</poll_delay>
+	</settings>
+	<users>
+		<user pwd="DENVIK" uname="factory"/>
+		<user pwd="admin" uname="admin"/>
+		<user pwd="guest" uname="guest"/>
+	</users>
+	<admin_settings>
+		<fixed_maintenance>9999.99</fixed_maintenance>
+		<service_tax>0025.55</service_tax>
+	</admin_settings>
+</venaqua>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><venaqua>
+	<apartment id="1">
+		<housecount count="9"/>
+		<waterline cost="11.0" type="TYPE1"/>
+		<waterline cost="12.0" type="TYPE2"/>
+		<waterline cost="13.0" type="TYPE3"/>
+		<waterline cost="14.0" type="TYPE4"/>
+	</apartment>
+	<apartment id="2">
+		<housecount count="9"/>
+		<waterline cost="11.0" type="TYPE4"/>
+		<waterline cost="12.0" type="TYPE3"/>
+		<waterline cost="13.0" type="TYPE2"/>
+		<waterline cost="14.0" type="TYPE1"/>
+	</apartment>
+	<house accountno="1234560" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="1" name="House 1" owner="Owner-01">
+		<inlet billedconsumption="100" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house accountno="1234561" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="4" master="1" name="House 2" owner="Owner-02">
+		<inlet billedconsumption="0" name="Inlet 4" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE3"/>
+		<inlet billedconsumption="0" name="Inlet 1" watertype="TYPE4"/>
+	</house>
+	<house accountno="1234562" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="1" name="House 3" owner="Owner-03">
+		<inlet billedconsumption="0" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house accountno="1234563" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="1" name="House 4" owner="Owner-04">
+		<inlet billedconsumption="0" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house accountno="1234564" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="1" name="House 5" owner="Owner-05">
+		<inlet billedconsumption="100" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house accountno="1234565" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="1" name="House 6" owner="Owner-06">
+		<inlet billedconsumption="0" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house accountno="1234566" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="1" name="House 7" owner="Owner-07">
+		<inlet billedconsumption="0" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house accountno="1234567" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="1" name="House 8" owner="Owner-08">
+		<inlet billedconsumption="0" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house accountno="1234568" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="1" name="House 9" owner="Owner-09">
+		<inlet billedconsumption="0" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house accountno="1234569" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="2" name="House 10" owner="Owner-10">
+		<inlet billedconsumption="0" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house accountno="1234570" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="2" name="House 11" owner="Owner-11">
+		<inlet billedconsumption="0" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house accountno="1234571" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="2" name="House 12" owner="Owner-12">
+		<inlet billedconsumption="0" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house accountno="1234572" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="2" name="House 13" owner="Owner-13">
+		<inlet billedconsumption="0" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house accountno="1234573" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="2" name="House 14" owner="Owner-14">
+		<inlet billedconsumption="0" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house accountno="1234574" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="2" name="House 15" owner="Owner-15">
+		<inlet billedconsumption="0" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house accountno="1234575" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="2" name="House 16" owner="Owner-16">
+		<inlet billedconsumption="0" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house accountno="1234576" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="2" name="House 17" owner="Owner-17">
+		<inlet billedconsumption="0" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house accountno="1234577" addressline1="Address Line-1" addressline2="Address Line-2" inletcount="3" master="2" name="House 18" owner="Owner-18">
+		<inlet billedconsumption="0" name="Inlet 1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="Inlet 2" watertype="TYPE2"/>
+		<inlet billedconsumption="0" name="Inlet 3" watertype="TYPE3"/>
+	</house>
+</venaqua>

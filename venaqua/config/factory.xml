@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?><venaqua>
+	<apartment id="1">
+		<housecount count="24"/>
+		<waterline cost="0.12" type="TYPE1"/>
+		<waterline cost="0.12" type="TYPE2"/>
+		<waterline cost="0.12" type="TYPE3"/>
+		<waterline cost="0.12" type="TYPE4"/>
+	</apartment>
+	<apartment id="2">
+		<housecount count="24"/>
+		<waterline cost="0.12" type="TYPE1"/>
+		<waterline cost="0.12" type="TYPE2"/>
+		<waterline cost="0.12" type="TYPE3"/>
+		<waterline cost="0.12" type="TYPE4"/>
+	</apartment>
+	<apartment id="3">
+		<housecount count="25"/>
+		<waterline cost="0.12" type="TYPE1"/>
+		<waterline cost="0.12" type="TYPE2"/>
+		<waterline cost="0.12" type="TYPE3"/>
+		<waterline cost="0.12" type="TYPE4"/>
+	</apartment>
+	<apartment id="4">
+		<housecount count="25"/>
+		<waterline cost="0.12" type="TYPE1"/>
+		<waterline cost="0.12" type="TYPE2"/>
+		<waterline cost="0.12" type="TYPE3"/>
+		<waterline cost="0.12" type="TYPE4"/>
+	</apartment>
+	<apartment id="5">
+		<housecount count="25"/>
+		<waterline cost="0.12" type="TYPE1"/>
+		<waterline cost="0.12" type="TYPE2"/>
+		<waterline cost="0.12" type="TYPE3"/>
+		<waterline cost="0.12" type="TYPE4"/>
+	</apartment>
+	<apartment id="6">
+		<housecount count="17"/>
+		<waterline cost="0.12" type="TYPE1"/>
+		<waterline cost="0.12" type="TYPE2"/>
+		<waterline cost="0.12" type="TYPE3"/>
+		<waterline cost="0.12" type="TYPE4"/>
+	</apartment>
+	
+	<house inletcount="3" master="1" name="AF4">
+		<inlet billedconsumption="0.0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0.0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0.0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="1" name="AP1">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="AF3">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="AP2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="AG1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="AF1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="AG2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="AF2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="1" name="BF4">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="1" name="BP1">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="BF3">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="BP2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="BG1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="BF1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="BG2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="BF2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="1" name="CP1">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="1" name="CF4">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="CF3">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="CP2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="CG1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="CF1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="CG2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="1" name="CF2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="2" name="DF4">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="DF3">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="DP2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="DG1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="DF1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="DG2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="DF2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+		<house inletcount="2" master="2" name="DP1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="EF4">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B12" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="EF3">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="EP2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>	
+	<house inletcount="2" master="2" name="EG1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="EF1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="EG2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="EF2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="1" master="2" name="EP1">
+		<inlet billedconsumption="0" name="B12" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="2" name="FF4">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="2" name="FP1">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="FF3">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="FP2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>	
+	<house inletcount="2" master="2" name="FG1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="FF1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="FG2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="2" name="FF2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="3" name="GF4">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="3" name="GS2">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="3" name="GG1">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="WAS" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="3" name="GF1">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="3" name="GF2">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="4" master="3" name="GP1">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="TER" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="3" name="GG2">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="3" name="GF6">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="3" name="GP2">
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="3" name="GF5">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="BAL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="3" name="GF3">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="3" name="GS1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="3" name="HF4">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="3" name="HS2">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="3" name="HG1">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="WAS" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="3" name="HF1">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="3" name="HF2">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="3" name="HP1">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="3" name="HG2">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="3" name="HF6">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="1" master="3" name="COM">
+		<inlet billedconsumption="0" name="TAP" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="3" name="HF5">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="BAL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="3" name="HP2">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="BAL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="3" name="HF3">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="3" name="HS1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="4" name="IF4">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="4" name="IS2">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="4" name="IG1">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="WAS" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="4" name="IF1">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="4" name="IF2">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="4" name="IP1">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="4" name="IF6">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="4" name="IG2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="1" master="4" name="COM">
+		<inlet billedconsumption="0" name="TAP" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="4" name="IP2">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="4" name="IF5">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="4" name="IF3">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="4" name="IS1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="4" name="JF4">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="4" name="JS2">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="1" master="4" name="JG1">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="4" name="JF1">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="4" name="JF2">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="4" name="JP1">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="4" name="JF6">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="4" name="JG2">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="4" name="JP2">
+		<inlet billedconsumption="0" name="KBT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="4" name="JF5">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="BAL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="4" name="JF3">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="4" name="JS1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="5" name="KF4">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="5" name="KS2">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="1" master="5" name="KG1">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="5" name="KF1">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="5" name="KF2">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="5" name="KP1">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="5" name="KF6">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="5" name="KG2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="1" master="5" name="COM">
+		<inlet billedconsumption="0" name="TAP" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="5" name="KP2">
+		<inlet billedconsumption="0" name="BAL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="5" name="KF5">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="5" name="KF3">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="5" name="KS1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="5" name="LF4">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="5" name="LS2">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="5" name="LG1">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="WAS" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="5" name="LF1">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="5" name="LF2">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="5" name="LP1">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="5" name="LG2">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="5" name="LF6">
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="5" name="LP2">
+		<inlet billedconsumption="0" name="BAL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="5" name="LF5">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="BAL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="5" name="LF3">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="5" name="LS1">
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="6" name="MF4">
+		<inlet billedconsumption="0" name="BBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="6" name="MP1">
+		<inlet billedconsumption="0" name="BBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="6" name="MF3">
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="BAL" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="6" name="MP2">
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="BAL" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="6" name="MG1">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>		
+	</house>
+	<house inletcount="3" master="6" name="MF1">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="6" name="COM">
+		<inlet billedconsumption="0" name="T1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="T2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="6" name="MG2">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="6" name="MF2">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="6" name="NF4">
+		<inlet billedconsumption="0" name="BBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="6" name="NP1">
+		<inlet billedconsumption="0" name="BBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="6" name="NF3">
+		<inlet billedconsumption="0" name="KBL" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="6" name="NP2">
+		<inlet billedconsumption="0" name="KB1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="6" name="NG1">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>		
+	</house>
+	<house inletcount="3" master="6" name="NF1">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="2" master="6" name="NG2">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+	<house inletcount="3" master="6" name="NF2">
+		<inlet billedconsumption="0" name="B1" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="KIT" watertype="TYPE1"/>
+		<inlet billedconsumption="0" name="B2" watertype="TYPE1"/>
+	</house>
+</venaqua>

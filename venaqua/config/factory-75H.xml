@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<venaqua>
+	<apartment id="1">
+		<housecount count="50"/>
+		<waterline type="TYPE1" cost="11.0"/>
+		<waterline type="TYPE2" cost="12.0"/>
+		<waterline type="TYPE3" cost="13.0"/>
+		<waterline type="TYPE4" cost="14.0"/>
+	</apartment>
+	<apartment id="2">
+		<housecount count="25"/>
+		<waterline type="TYPE4" cost="11.0"/>
+		<waterline type="TYPE3" cost="12.0"/>
+		<waterline type="TYPE2" cost="13.0"/>
+		<waterline type="TYPE1" cost="14.0"/>
+	</apartment>
+	<house name="House 1" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 2" master="1" inletcount="4">
+		<inlet name="Inlet 4" watertype="TYPE1"/>
+		<inlet name="Inlet 3" watertype="TYPE2"/>
+		<inlet name="Inlet 2" watertype="TYPE3"/>
+		<inlet name="Inlet 1" watertype="TYPE4"/>
+	</house>
+	<house name="House 3" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 4" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 5" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 6" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 7" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 8" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 9" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 10" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 11" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 12" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 13" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 14" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 15" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 16" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 17" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 18" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 19" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 20" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 21" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 22" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 23" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 24" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 25" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 26" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 27" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 28" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 29" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 30" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 31" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 32" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 33" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 34" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 35" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 36" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 37" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 38" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 39" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 40" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 41" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 42" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 43" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 44" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 45" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 46" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 47" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 48" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 49" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 50" master="1" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 51" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 52" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 53" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 54" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 55" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 56" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 57" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 58" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 59" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 60" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 61" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 62" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 63" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 64" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 65" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 66" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 67" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 68" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 69" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 70" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 71" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 72" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 73" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 74" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+	<house name="House 75" master="2" inletcount="3">
+		<inlet name="Inlet 1" watertype="TYPE1"/>
+		<inlet name="Inlet 2" watertype="TYPE2"/>
+		<inlet name="Inlet 3" watertype="TYPE3"/>
+	</house>
+</venaqua>
