@@ -40,7 +40,7 @@ public class Test {
     {
         Task task = null;
         if( textToPrint!=null )
-            task = new Task() {
+            task = new Task( "Task" ) {
                 @Override
                 protected void Execution() {
                     System.out.println( textToPrint );

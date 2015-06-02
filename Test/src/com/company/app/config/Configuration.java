@@ -150,6 +150,10 @@ public class Configuration implements IConfiguration {
         }
     }
 
+    public String getConfigPath() {
+        return configPath;
+    }
+
     @Override
     public boolean flush() throws IOException {
         return save();

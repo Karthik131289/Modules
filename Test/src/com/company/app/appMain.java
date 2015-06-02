@@ -1,8 +1,11 @@
 package com.company.app;
 
 import com.company.app.config.ConfigUtill;
+import com.company.app.config.Configuration;
 import com.company.app.config.IConfiguration;
+import com.company.app.config.ISection;
 import com.company.app.ui.splash.splashWindow;
+import com.sun.org.apache.xpath.internal.SourceTree;
 
 import javax.swing.*;
 import java.io.File;
@@ -40,9 +43,23 @@ public class appMain {
             String configPath = HomeUtills.getConfigDirPath() + File.separator + _CFG_FILE_NAME;
             ConfigUtill.createConfig( _COMPANY_NAME, _APP_NAME, configPath );
             config = ConfigUtill.getConfig();
+            dispConfig();
         } catch ( IOException ie ) {
             ie.printStackTrace();
         }
     }
 
+    private static void dispConfig() {
+        System.out.println( "Reading Config file..." );
+        String secNames[] = config.getSectionNames();
+        for( int i=0; i<secNames.length; i++ ) {
+            System.out.println( "[ " + secNames[i] + " ]" );
+
+            ISection sec = config.getSection( secNames[i] );
+            String fields[] = sec.getKeys();
+            for( int j=0; j<fields.length; j++ ) {
+                System.out.println( "\t" + fields[j] + " : " + sec.getKeyValue( fields[j] ) );
+            }
+        }
+    }
 }
