@@ -1,34 +1,19 @@
 package net.report;
 
-import java.awt.Desktop;
+import com.itextpdf.text.*;
+import com.itextpdf.text.Font;
+import com.itextpdf.text.Image;
+import com.itextpdf.text.Rectangle;
+import com.itextpdf.text.pdf.*;
+import net.utills.IconCollections;
+
+import java.awt.*;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.util.StringTokenizer;
 import java.util.Vector;
 
-import javax.swing.text.StyleConstants.ParagraphConstants;
-
-import net.utills.IconCollections;
-
-import com.itextpdf.text.BaseColor;
-import com.itextpdf.text.Document;
-import com.itextpdf.text.Element;
-import com.itextpdf.text.Font;
-import com.itextpdf.text.FontFactory;
-import com.itextpdf.text.Image;
-import com.itextpdf.text.PageSize;
-import com.itextpdf.text.Paragraph;
-import com.itextpdf.text.Phrase;
-import com.itextpdf.text.Rectangle;
-import com.itextpdf.text.pdf.BaseFont;
-import com.itextpdf.text.pdf.CMYKColor;
-import com.itextpdf.text.pdf.PdfContentByte;
-import com.itextpdf.text.pdf.PdfPCell;
-import com.itextpdf.text.pdf.PdfPTable;
-import com.itextpdf.text.pdf.PdfStructTreeController.returnType;
-import com.itextpdf.text.pdf.PdfWriter;
-
-public class waterBill 
+public class tUtill
 {
 	public static final String _outFilePath = System.getProperty("user.home")+ File.separator + "Desktop";
 	public static final String _fileExtension = ".pdf";
@@ -38,47 +23,40 @@ public class waterBill
 	private static final Float _marginRight = 50.0f;
 	private static final Float _marginTop = 50.0f;
 	private static final Float _marginBottom = 50.0f;
-	
+
 	private static final int billHeadTableWidth = 225;
 	private static final int billHeadTableHeight = 60;
-	private static final int consumptionTableWidth = 500;
-	private static final int consumptionTableHeight = 50;
-	private static final int consSummaryTableWidth = 500;
-	private static final int consSummaryTableHeight = 200;
+	private static final int summaryTableWidth = 500;
+	private static final int summaryTableHeight = 200;
 	private static final int returnSlipSummaryWidth = 500;
 	private static final int returnSlipSummaryHeight = 60;
-	
-	
+
+
 	private File	 outFile;
 	private Document doc;
 	private PdfWriter writer;
 	private PdfContentByte contentBytes;
-	
+
 	private BaseFont fontTitle;
 	private BaseFont fontHead;
 	private BaseFont fontText;
-	
+
 	private Location locLogo;
 	private Location locTitle;
 	private Location locCustomerDetail;
 	private Location locBillHeader;
-	private Location locConsumption;
-	private Location locConsumpSummaryHeader;
-	private Location locConsumpSummaryTable;
+	private Location locSummaryTableHeader;
+	private Location locSummaryTable;
 	private Location locReturnSlipSummary;
-	
-	public static void main(String[] args) 
+
+	public static void main(String[] args)
 	{
-		waterBill bill = new waterBill();
+		tUtill bill = new tUtill();
         bill.createSampleBill();
 	}
-	public waterBill( )
-	{
-		//createSampleBill();
-	}
+
 	public void createSampleBill()
 	{
-
 		isFileExists( _outFilePath , "WaterBill-Nov" , "House-2" );
 		
 		initPDF();
@@ -87,31 +65,21 @@ public class waterBill
 		
 		addCustomerDetails( "Karthik", "dfsfdsjfjfks\nuiewhejkf");
 		addBillHeaderDetails("2214443", "08/12/2014", "20/12/2014");
-		addConsumptionDetails( "2000 KL", "3000 KL", "1000 KL", "4000 Rs." );
 		
-		Vector<String> inletName = new Vector<String>();
-		Vector<String> totConsump = new Vector<String>();
-		Vector<String> costPerLtr = new Vector<String>();
-		Vector<String> totAmt = new Vector<String>();
-
-		inletName.add("Inlet - 1 ");
-		totConsump.add("2000");
-		costPerLtr.add("2");
-		totAmt.add("4000");
+		Vector<String> description = new Vector<String>();
+		Vector<String> Amt = new Vector<String>();
+        String totAmt = "";
+        description.add("Inlet - 1 ");
+		Amt.add("4000");
+        description.add("Inlet - 2 ");
+		Amt.add("2000");
+        totAmt = "6000";
+		addSummaryTableDetails(description, Amt , totAmt );
 		
-		inletName.add("Inlet - 2 ");
-		totConsump.add("1000");
-		costPerLtr.add("2");
-		totAmt.add("2000");
-		addConsumptionSummaryDetails( inletName , totConsump , costPerLtr , totAmt );
-		
-		
-		addReturnSlipSummary("www.denvik.in","2214443","08/12/2014","20/12/2014","4000 Rs.");
+		addReturnSlipSummary("www.denvik.in","2214443","08/12/2014","20/12/2014", totAmt+" Rs.");
 		
 		closePDF();
 		viewPdf();
-
-
 	}
 	public void initPDF()
 	{
@@ -137,7 +105,7 @@ public class waterBill
 			doc.addCreationDate();
 			doc.addProducer();
 			doc.addCreator("www.denvik.in");
-			doc.addTitle("Water Bill");
+			doc.addTitle("Maintenance Bill");
 			doc.setPageSize(PageSize.LETTER);
 		} 
 		catch (Exception e) 
@@ -163,10 +131,13 @@ public class waterBill
 			locTitle = new Location( 420 , 770 );
 			locCustomerDetail = new Location( 180 , 745 );
 			locBillHeader = new Location( 350, 700 );
-			locConsumption = new Location( 50 , 630 );
-			locConsumpSummaryHeader = new Location( 50, 600 );
-			locConsumpSummaryTable = new Location(50, 590);
-			locReturnSlipSummary = new Location( 50 , 340 );
+
+            // Summary Table
+            locSummaryTableHeader = new Location( 50, 630 );
+            locSummaryTable = new Location(50, 620);
+
+            // Return Slip Table
+            locReturnSlipSummary = new Location( 50 , 340 );
 		} 
 		catch (Exception e) 
 		{
@@ -185,13 +156,12 @@ public class waterBill
 			doc.add(logoVenaqua);
 			
 			// Add Title
-			createTitle( contentBytes , locTitle.getPosX() , locTitle.getPosY() , "Your Water Bill");
+			createTitle( contentBytes , locTitle.getPosX() , locTitle.getPosY() , "Your Maintenance Bill");
 			
 			// Add Customer Details Table
 			createHeadings( contentBytes , locCustomerDetail.getPosX() , locCustomerDetail.getPosY()    , " Name        : " );
 			createHeadings( contentBytes , locCustomerDetail.getPosX() , locCustomerDetail.getPosY()-20 , " Address   : " );
-			
-			
+
 			// Bill Header Table
 			contentBytes.rectangle( locBillHeader.getPosX() , locBillHeader.getPosY() ,billHeadTableWidth ,billHeadTableHeight );
 			contentBytes.moveTo( locBillHeader.getPosX() , locBillHeader.getPosY()+20 );
@@ -203,38 +173,29 @@ public class waterBill
 			contentBytes.moveTo( locBillHeader.getPosX()+(billHeadTableWidth*0.45f), locBillHeader.getPosY() ); 
 			contentBytes.lineTo( locBillHeader.getPosX()+(billHeadTableWidth*0.45f), locBillHeader.getPosY()+billHeadTableHeight );
 			contentBytes.stroke();
-			
-			// Consumption Detail Table
-			contentBytes.rectangle( locConsumption.getPosX() , locConsumption.getPosY() ,consumptionTableWidth ,consumptionTableHeight );
-			contentBytes.moveTo( locConsumption.getPosX() , locConsumption.getPosY()+(consumptionTableHeight*0.5f) );
-			contentBytes.lineTo( locConsumption.getPosX()+consumptionTableWidth , locConsumption.getPosY()+(consumptionTableHeight*0.5f) );
-			contentBytes.stroke();
-			
-			contentBytes.moveTo( locConsumption.getPosX()+(consumptionTableWidth*0.25f) , locConsumption.getPosY() );
-			contentBytes.lineTo( locConsumption.getPosX()+(consumptionTableWidth*0.25f) , locConsumption.getPosY()+consumptionTableHeight );
-			contentBytes.moveTo( locConsumption.getPosX()+(consumptionTableWidth*0.50f) , locConsumption.getPosY() );
-			contentBytes.lineTo( locConsumption.getPosX()+(consumptionTableWidth*0.50f) , locConsumption.getPosY()+consumptionTableHeight );
-			contentBytes.moveTo( locConsumption.getPosX()+(consumptionTableWidth*0.75f) , locConsumption.getPosY() );
-			contentBytes.lineTo( locConsumption.getPosX()+(consumptionTableWidth*0.75f) , locConsumption.getPosY()+consumptionTableHeight );
-			contentBytes.stroke();
-			
-			// Consumption Summary
-			createHeadings( contentBytes , locConsumpSummaryHeader.getPosX() , locConsumpSummaryHeader.getPosY() , "Summary - Consumption Details");
 
-			contentBytes.rectangle( locConsumpSummaryTable.getPosX() , locConsumpSummaryTable.getPosY()-(consSummaryTableHeight) ,consSummaryTableWidth ,consSummaryTableHeight );
+			// Consumption Summary
+			createHeadings(contentBytes, locSummaryTableHeader.getPosX(), locSummaryTableHeader.getPosY(), "Summary - Maintenance Details");
+
+			contentBytes.rectangle( locSummaryTable.getPosX() , locSummaryTable.getPosY()-(summaryTableHeight) , summaryTableWidth, summaryTableHeight);
 			contentBytes.stroke();
-			contentBytes.moveTo( locConsumpSummaryTable.getPosX() , locConsumpSummaryTable.getPosY()-30 );
-			contentBytes.lineTo( locConsumpSummaryTable.getPosX()+consSummaryTableWidth , locConsumpSummaryTable.getPosY()-30 );
+			contentBytes.moveTo( locSummaryTable.getPosX() , locSummaryTable.getPosY()-30 );
+			contentBytes.lineTo( locSummaryTable.getPosX()+ summaryTableWidth, locSummaryTable.getPosY()-30 );
 			contentBytes.stroke();
-			
-			contentBytes.moveTo( locConsumpSummaryTable.getPosX()+(consSummaryTableWidth*0.35f) , locConsumpSummaryTable.getPosY() );
-			contentBytes.lineTo( locConsumpSummaryTable.getPosX()+(consSummaryTableWidth*0.35f) , locConsumpSummaryTable.getPosY()-consSummaryTableHeight );
-			contentBytes.moveTo( locConsumpSummaryTable.getPosX()+(consSummaryTableWidth*0.60f) , locConsumpSummaryTable.getPosY() );
-			contentBytes.lineTo( locConsumpSummaryTable.getPosX()+(consSummaryTableWidth*0.60f) , locConsumpSummaryTable.getPosY()-consSummaryTableHeight );
-			contentBytes.moveTo( locConsumpSummaryTable.getPosX()+(consSummaryTableWidth*0.80f) , locConsumpSummaryTable.getPosY() );
-			contentBytes.lineTo( locConsumpSummaryTable.getPosX()+(consSummaryTableWidth*0.80f) , locConsumpSummaryTable.getPosY()-consSummaryTableHeight );
-			contentBytes.stroke();
-		} 
+
+            contentBytes.moveTo( locSummaryTable.getPosX()+(summaryTableWidth *0.25f) , locSummaryTable.getPosY() );
+            contentBytes.lineTo( locSummaryTable.getPosX()+(summaryTableWidth *0.25f) , locSummaryTable.getPosY()- summaryTableHeight);
+            contentBytes.moveTo( locSummaryTable.getPosX()+(summaryTableWidth *0.75f) , locSummaryTable.getPosY() );
+            contentBytes.lineTo( locSummaryTable.getPosX()+(summaryTableWidth *0.75f) , locSummaryTable.getPosY()- summaryTableHeight);
+            contentBytes.stroke();
+
+            // Add total field
+            contentBytes.rectangle( locSummaryTable.getPosX() , locSummaryTable.getPosY()-summaryTableHeight-30 , summaryTableWidth, 30);
+            contentBytes.stroke();
+            contentBytes.moveTo( locSummaryTable.getPosX()+(summaryTableWidth *0.75f) , locSummaryTable.getPosY()-summaryTableHeight );
+            contentBytes.lineTo( locSummaryTable.getPosX()+(summaryTableWidth *0.75f) , locSummaryTable.getPosY()- summaryTableHeight-30);
+            contentBytes.stroke();
+        }
 		catch (Exception e) 
 		{
 			e.printStackTrace();
@@ -279,50 +240,34 @@ public class waterBill
 			e.printStackTrace();
 		}
 	}
-	
-	public void addConsumptionDetails( String preMonthCons , String currMonthCons , String totalCons , String dueAmount )
+
+	public void addSummaryTableDetails(Vector<String> description , Vector<String> amt , String totAmt )
 	{
 		try 
 		{
-			createHeadings( contentBytes , locConsumption.getPosX()+(billHeadTableWidth*0.01f)+2 , locConsumption.getPosY()+(consumptionTableHeight*0.5f)+10 , " Previous Month Consumption" );
-			createHeadings( contentBytes , locConsumption.getPosX()+(billHeadTableWidth*0.57f)+2 , locConsumption.getPosY()+(consumptionTableHeight*0.5f)+10 , " Current Month Consumption" );
-			createHeadings( contentBytes , locConsumption.getPosX()+(billHeadTableWidth*1.15f)+10 , locConsumption.getPosY()+(consumptionTableHeight*0.5f)+10 ,  " Overall Consumption " );
-			createHeadings( contentBytes , locConsumption.getPosX()+(billHeadTableWidth*1.75f)+10 , locConsumption.getPosY()+(consumptionTableHeight*0.5f)+10 ,  " Amount Payable " );
-			
-			createHeadings( contentBytes , locConsumption.getPosX()+(billHeadTableWidth*0.01f)+40 , locConsumption.getPosY()+10 , preMonthCons );
-			createHeadings( contentBytes , locConsumption.getPosX()+(billHeadTableWidth*0.57f)+40 , locConsumption.getPosY()+10 , currMonthCons );
-			createHeadings( contentBytes , locConsumption.getPosX()+(billHeadTableWidth*1.15f)+30 , locConsumption.getPosY()+10 , totalCons );
-			createHeadings( contentBytes , locConsumption.getPosX()+(billHeadTableWidth*1.75f)+20 , locConsumption.getPosY()+10 , dueAmount );
-		} 
-		catch (Exception e)
-		{
-			e.printStackTrace();
-		}
-	}
-	
-	public void addConsumptionSummaryDetails( Vector<String> inletName , Vector<String> totConsump , Vector<String> costPerLtr , Vector<String> totAmt )
-	{
-		try 
-		{
-			final float x1 = locConsumpSummaryTable.getPosX()+(consSummaryTableWidth*0.01f)+10;
-			final float x2 = locConsumpSummaryTable.getPosX()+(consSummaryTableWidth*0.35f)+10;
-			final float x3 = locConsumpSummaryTable.getPosX()+(consSummaryTableWidth*0.60f)+10;
-			final float x4 = locConsumpSummaryTable.getPosX()+(consSummaryTableWidth*0.80f)+10;
-			 	  float y  = locConsumpSummaryTable.getPosY()-20;
+			final float x1 = locSummaryTable.getPosX()+(summaryTableWidth *0.01f)+10;
+			final float x2 = locSummaryTable.getPosX()+(summaryTableWidth *0.25f)+10;
+			final float x3 = locSummaryTable.getPosX()+(summaryTableWidth *0.75f)+10;
+            final float x4 = locSummaryTable.getPosX()+(summaryTableWidth *0.75f)-30;
+            final float x5 = locSummaryTable.getPosX()+(summaryTableWidth *0.75f)+10;
+            float y  = locSummaryTable.getPosY()-20;
 			 	  
-			createHeadings( contentBytes , x1 , y , "Inlet Name");
-			createHeadings( contentBytes , x2 , y , "Total Consumption( KL )");
-			createHeadings( contentBytes , x3 , y , "Cost per Liter");
-			createHeadings( contentBytes , x4 , y , "Amount");
-			
+			createHeadings( contentBytes , x1 , y , "SNo");
+			createHeadings( contentBytes , x2 , y , "Description");
+			createHeadings( contentBytes , x3 , y , "Amount");
+
+            createHeadings( contentBytes , x4 , y-summaryTableHeight , "Total" );
+            createText( contentBytes , x5 , y-summaryTableHeight , totAmt );
+
 			y = y - 30;
-			for (int i = 0; i < inletName.size(); i++) 
+			for (int i = 0; i < description.size(); i++)
 			{
-				createText( contentBytes , x1 , y-(i*20) , inletName.get(i) );
-				createText( contentBytes , x2 , y-(i*20) , totConsump.get(i) );
-				createText( contentBytes , x3 , y-(i*20) , costPerLtr.get(i) );
-				createText( contentBytes , x4 , y-(i*20) , totAmt.get(i) );
+				createText( contentBytes , x1 , y-(i*20) , (i+1)+"" );
+				createText( contentBytes , x2 , y-(i*20) , description.get(i) );
+				createText(contentBytes, x3, y - (i * 20), amt.get(i));
 			}
+
+
 		} 
 		catch (Exception e) 
 		{

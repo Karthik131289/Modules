@@ -41,12 +41,17 @@ public class updateSettings
 			this.factory = DocumentBuilderFactory.newInstance();
 			this.build 	= factory.newDocumentBuilder();
 			this.doc 	= build.parse( xml );
-		}
-		catch( SAXException | IOException | ParserConfigurationException e )
+		} catch( SAXException e )
+		{
+			e.printStackTrace();
+		} catch( IOException e )
+		{
+			e.printStackTrace();
+		} catch( ParserConfigurationException e )
 		{
 			e.printStackTrace();
 		}
-	}
+    }
 	
 	public NodeList processDocument( String nodeName )
 	{
