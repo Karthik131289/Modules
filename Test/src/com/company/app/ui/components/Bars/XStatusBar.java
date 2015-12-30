@@ -28,19 +28,19 @@ public class XStatusBar extends JPanel {
         this.progressPanel = new JPanel();
         this.componentPanel = new JPanel();
 
-        super.setLayout(new BorderLayout(5, 0));
-        super.setBorder(new LineBorder(Color.BLACK, 1) );
+        super.setLayout(new BorderLayout(5, 2));
+        super.setBorder(new LineBorder(Color.GRAY, 1) );
 
         this.separator.setBackground(Color.DARK_GRAY);
         this.separator.setVisible(true);
 
-        this.statusPanel.setLayout(new FlowLayout(FlowLayout.RIGHT, 5, 5));
+        this.statusPanel.setLayout(new FlowLayout(FlowLayout.RIGHT, 5, 2));
         this.statusPanel.setBackground( getBackground() );
         this.statusPanel.setOpaque( false );
         this.statusPanel.add( this.lblStatus );
         this.statusPanel.add( new JSeparator( SwingConstants.VERTICAL ) );
 
-        this.progressPanel.setLayout( new FlowLayout( FlowLayout.RIGHT , 5 , 5 ) );
+        this.progressPanel.setLayout( new FlowLayout( FlowLayout.RIGHT , 5 , 2 ) );
         this.progressPanel.setBackground( getBackground() );
         this.progressPanel.setOpaque( false );
         this.progressPanel.add( this.progressBar );
